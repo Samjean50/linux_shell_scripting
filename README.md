@@ -87,7 +87,7 @@ if [ "$table_choice" == "f" ]; then
 fi
 ```
 
-![Partial table]([images/partial table.png](https://github.com/Samjean50/linux_shell_scripting/blob/main/images/partial%20table.png)
+![Partial table](images/partial table.png](https://github.com/Samjean50/linux_shell_scripting/blob/main/images/partial%20table.png)
 
 ### 4. Troubleshooting (Common Issues and Solutions)
 ### 4.1. Script Permission Denied
