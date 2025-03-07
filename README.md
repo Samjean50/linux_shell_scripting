@@ -70,7 +70,7 @@ if [ "$table_choice" == "f" ]; then
     echo "$number x $i = $result"
   done
   ```
-![Full table](images/full table.png)
+![Full table](https://github.com/Samjean50/linux_shell_scripting/blob/main/images/full%20table.png)
 
 #### 3.4. Partial Multiplication Table
 * If the user chooses the partial option (p), prompt for a custom range (start and end numbers).
@@ -87,7 +87,7 @@ if [ "$table_choice" == "f" ]; then
 fi
 ```
 
-![Partial table](images/partial table.png)
+![Partial table]([images/partial table.png](https://github.com/Samjean50/linux_shell_scripting/blob/main/images/partial%20table.png)
 
 ### 4. Troubleshooting (Common Issues and Solutions)
 ### 4.1. Script Permission Denied
