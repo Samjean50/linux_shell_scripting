@@ -90,10 +90,10 @@ fi
 ![Partial table](https://github.com/Samjean50/linux_shell_scripting/blob/main/images/partial%20table.png)
 
 ### 4. Troubleshooting (Common Issues and Solutions)
-### 4.1. Script Permission Denied
+#### 4.1. Script Permission Denied
 - If you encounter a “Permission Denied” error when running the script, ensure the script has executable permissions.
 * Solution: ```Run chmod +x multiplication_table.sh``` to make the script executable.
-4.2. Invalid Input for Number
+#### 4.2 Invalid Input for Number
 - If the user enters a non-numeric value, the script may behave unexpectedly as it expects a number for multiplication.
 * Solution: Add input validation to ensure that only numbers are accepted. For example:
 
@@ -103,9 +103,9 @@ echo "Invalid input. Please enter a valid number."
 exit 1
 fi
 ```
-4.3. Invalid Range in Partial Table
+#### 4.3. Invalid Range in Partial Table
 - If the user inputs a start number greater than the end number, the script will display an "Invalid range" error.
 * Solution: Make sure the start number is less than or equal to the end number, as shown in the range validation code.
-4.4. Git Remote Connection Issues
+#### 4.4. Git Remote Connection Issues
 - If you have trouble pushing code to the GitHub repository, verify that the remote URL is correct and that you have the necessary permissions.
 * Solution: Run git remote -v to check the remote URL and verify access. If there are issues, re-add the remote with the correct URL using git remote add origin <repository_url>.
