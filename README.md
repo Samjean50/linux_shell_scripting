@@ -4,12 +4,12 @@
 
 ### 1. Project Overview
 
-In this project i will create a Bash script that generates a Multiplication table for a number entered by the user. My script should prompt the user to enter a number and then ask if they prefer to see a full multiplication table from 1 to 10 or a partial table within a specified range. Based on the user's choice, the script displays the corresponding multiplication table.
- This project will enable me to use loops, handle user input, and applying conditional logic in Bash scripting.
+In this project i will create a Bash script that generates a Multiplication table for a number entered by the user. My script will prompt the user to enter a number and then ask if they prefer to see a full multiplication table from 1 to 10 or a partial table within a specified range. Based on the user's choice, the script displays the corresponding multiplication table.
+ This project enables me to use loops, handle user input, and applying conditional logic in Bash scripting.
 
 ### 2. Project Steps
 #### 2.1. Create Project Directory
-* Create a project directory where all the files for the project will be stored.
+* I created a project directory where all the files for the project will be stored.
 * Command: 
     ```touch multiplication_table.sh```
 
@@ -17,18 +17,18 @@ In this project i will create a Bash script that generates a Multiplication tabl
 
 
 #### 2.2. Initialize Git Repository
-* Initialize a Git repository in the project directory to track changes.
+* I initialized a Git repository in the project directory to track changes.
 * Command: ```git init```
 
  
  #### 2.3. Create a Bash Script File (.sh)
- * Create a shell script file named multiplication table where the Bash code will be written.
+ * I created a shell script file named multiplication table where the Bash code will be written.
  * Command: ```touch multiplication_table```
  ![Create file](images/create-file.png)
 
 
 #### 2.4. Make the Script Executable
-* Change the file permissions to make the script executable
+* I changed the file permissions to make the script executable
 
 * Command: 
 ```chmod+x multiplication-table.sh```
@@ -36,7 +36,7 @@ In this project i will create a Bash script that generates a Multiplication tabl
 ![Create file](images/makescript-executable.png)
 
 #### 2.5. Set Up Github repository and Link Remote
-* Create a Remote Repository on GitHub, then add the remote link to your local Git repository.
+* I created a Remote Repository on GitHub, then add the remote link to your local Git repository.
 
 ![Setup Github Repository](images/git_repository.png)
 
@@ -56,7 +56,7 @@ echo "Do you want a full table or a partial table?
 (Enter 'f' for full, 'p' for partial)"
 read table_choice
 ```
-![Setup Github Repository](images/full table.png)
+![Setup Github Repository](https://github.com/Samjean50/linux_shell_scripting/blob/main/images/doyou.png)
 
 #### 3.3. Full Multiplication Table
 * If the user selects the full table option (f), display the multiplication table from 1 to 10 in ascending order.
