@@ -1,55 +1,76 @@
 # Capstone Project - Linux Shell Scripting
 
-## Capstone Project: Bash Script For Generating a Multiplication Table. 
+## Capstone Project: Bash Script for Generating a Multiplication Table
 
 ### 1. Project Overview
 
-In this project i will create a Bash script that generates a Multiplication table for a number entered by the user. My script will prompt the user to enter a number and then ask if they prefer to see a full multiplication table from 1 to 10 or a partial table within a specified range. Based on the user's choice, the script displays the corresponding multiplication table.
- This project enables me to use loops, handle user input, and applying conditional logic in Bash scripting.
+This project involves the creation of a Bash script that generates a multiplication table for a number entered by the user. The script prompts the user to input a number and then choose between viewing a full multiplication table (from 1 to 10) or a partial table within a user-defined range. Based on the user's selection, the corresponding multiplication table is displayed.
+
+This implementation demonstrates the use of loops, user input handling, and conditional logic in Bash scripting.
 
 ### 2. Project Steps
+
 #### 2.1. Create Project Directory
-* I created a project directory where all the files for the project will be stored.
-* Command: 
-    ```touch multiplication_table.sh```
+
+A dedicated project directory was set up to store all relevant project files.
+
+* Command:  
+    ```bash
+    touch multiplication_table.sh
+    ```
 
 ![Create directory](images/create-directory.png)
 
-
 #### 2.2. Initialize Git Repository
-* I initialized a Git repository in the project directory to track changes.
-* Command: ```git init```
 
- 
- #### 2.3. Create a Bash Script File (.sh)
- * I created a shell script file named multiplication table where the Bash code will be written.
- * Command: ```touch multiplication_table```
- ![Create file](images/create-file.png)
+A Git repository was initialized in the project directory to track changes and manage version control.
 
+* Command:  
+    ```bash
+    git init
+    ```
+
+#### 2.3. Create a Bash Script File (.sh)
+
+A shell script file named `multiplication_table.sh` was created to hold the Bash code.
+
+* Command:  
+    ```bash
+    touch multiplication_table.sh
+    ```
+
+![Create file](images/create-file.png)
 
 #### 2.4. Make the Script Executable
-* I changed the file permissions to make the script executable
 
-* Command: 
-```chmod+x multiplication-table.sh```
+The script was made executable by updating the file permissions.
 
-![Create file](images/makescript-executable.png)
+* Command:  
+    ```bash
+    chmod +x multiplication_table.sh
+    ```
 
-#### 2.5. Set Up Github repository and Link Remote
-* I created a Remote Repository on GitHub, then add the remote link to your local Git repository.
+![Make executable](images/makescript-executable.png)
+
+#### 2.5. Set Up GitHub Repository and Link Remote
+
+A remote repository was created on GitHub, and the local repository was linked to it.
 
 ![Setup Github Repository](images/git_repository.png)
 
-### 3. Script Implementation
- #### 3.1. Prompt for User Input
+---
 
-* Use read-p to prompt the user to enter a number for which the multiplication table will be generated.
-```sh
+### 3. Script Implementation
+
+#### 3.1. Prompt for User Input
+
+The script prompts the user to enter a number using the `read -p` command.
+
+```bash
 read -p "Enter a number: " number
 ```
 
-
- #### 3.2. Ask for Table Type (Full or Partial)
+#### 3.2. Ask for Table Type (Full or Partial)
  * Ask the user if they want a full multiplication table (1-10) or a partial one within a specific range.
 ```sh
 echo "Do you want a full table or a partial table?
