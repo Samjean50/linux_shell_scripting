@@ -1,6 +1,26 @@
 # Capstone Project - Linux Shell Scripting
 
-## Capstone Project: Bash Script for Generating a Multiplication Table
+## Table of Contents
+
+1. Project Overview
+2. Project Steps and Commands
+   * 2.1 [Create Project Directory](#create-project-directory)
+   * 2.2 [Initialize Git Repository](#initialize-git-repository)
+   * 2.3 [Create a Bash Script File (.sh)](#create-a-bash-script-file-(.sh))
+   * 2.4 [Make the Script Executable](#make-the-script-executable)
+   * 2.5 [Set Up GitHub Repository and Link Remote](#set-up-github-repository-and-link-remote)
+3. Script Implementation
+   * 3.1 [Prompt for User Input](#prompt-for-user-input)
+   * 3.2 [Ask for Table Type (Full or Partial)](#ask-for-table-type-(full-or-partial))
+   * 3.3 [Full Multiplication Table](#full-multiplication-table)
+   * 3.4 [Partial Multiplication Table](#partial-multiplication-table)
+   * 3.5 [Validate Input Range for Partial Table](#validate-input-range-for-partial-table)
+   * 3.6 [Handle Invalid Options](#handle-invalid-options)
+4. Troubleshooting (Common Issues and Solutions)
+   * 4.1 [Script Permission Denied](#script-permission-denied)
+   * 4.2 [Invalid Input for Number](#invalid-input-for-number)
+   * 4.3 [Invalid Range in Partial Table](#invalid-range-in-partial-table)
+   * 4.4 [Git Remote Connection Issues](#git-remote-connection-issues)
 
 ### 1. Project Overview
 
@@ -95,20 +115,40 @@ if [ "$table_choice" == "f" ]; then
 
 #### 3.4. Partial Multiplication Table
 * If the user chooses the partial option (p), prompt for a custom range (start and end numbers).
-```sh # Validate the range
-  if [ "$start_number" -le "$end_number" ]; then
-    echo "Partial Multiplication table for $number from $start_number to $end_number (Ascending order)."
-    for i in $(seq $start_number $end_number); do
-      result=$((number * i ))
-      # Display result for partial table
-      echo "$number x $i = $result"
+```sh
+elif [ "$table_choice" == "p" ]; then
+    # Prompt for the start and end numbers of the range
+    echo "Enter the start number of the range:"
+    read start_number
+    echo "Enter the end number of the range:"
+    read end_number
+```
+![Partial table](https://github.com/Samjean50/linux_shell_scripting/blob/main/images/partial%20table.png)
+
+#### 3.5. Validate Input Range for Partial Table
+* Check if the start and end numbers form a valid range. If valid, display the multiplication table within the specified range; otherwise, show an error message.
+
+```sh
+# Validate the range
+if [ $start_number -le $end_number ]; then
+    echo "Multiplication table for $number from $start to $end:"
+    for i in $(seq $start $end)
+    do
+        result=$((number * i))
+        echo "$number x $i = $result"
     done
-  else
+else
     echo "Invalid range. The start number must be less than or equal to the end number."
 fi
 ```
 
-![Partial table](https://github.com/Samjean50/linux_shell_scripting/blob/main/images/partial%20table.png)
+#### 3.6. Handle Invalid Options
+* Provide feedback if the user enters an invalid option for the table type.
+
+```sh
+echo "Invalid option. Please enter 'f' for full table or 'p' for partial table."
+fi
+```
 
 ### 4. Troubleshooting (Common Issues and Solutions)
 #### 4.1. Script Permission Denied
