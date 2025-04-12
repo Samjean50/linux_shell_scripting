@@ -2,25 +2,25 @@
 
 ## Table of Contents
 
-1. Project Overview
-2. Project Steps and Commands
-   * 2.1 [Create Project Directory](#create-project-directory)
-   * 2.2 [Initialize Git Repository](#initialize-git-repository)
-   * 2.3 [Create a Bash Script File (.sh)](#create-a-bash-script-file-(.sh))
-   * 2.4 [Make the Script Executable](#make-the-script-executable)
-   * 2.5 [Set Up GitHub Repository and Link Remote](#set-up-github-repository-and-link-remote)
+- 1. Project Overview
+- 2. Project Steps and Commands
+   - 2.1 [Create Project Directory](#create-project-directory)
+   - 2.2 [Initialize Git Repository](#initialize-git-repository)
+   - 2.3 [Create a Bash Script File (.sh)](#create-a-bash-script-file-(.sh))
+   - 2.4 [Make the Script Executable](#make-the-script-executable)
+   - 2.5 [Set Up GitHub Repository and Link Remote](#set-up-github-repository-and-link-remote)
 3. Script Implementation
-   * 3.1 [Prompt for User Input](#prompt-for-user-input)
-   * 3.2 [Ask for Table Type (Full or Partial)](#ask-for-table-type-(full-or-partial))
-   * 3.3 [Full Multiplication Table](#full-multiplication-table)
-   * 3.4 [Partial Multiplication Table](#partial-multiplication-table)
-   * 3.5 [Validate Input Range for Partial Table](#validate-input-range-for-partial-table)
-   * 3.6 [Handle Invalid Options](#handle-invalid-options)
+   - 3.1 [Prompt for User Input](#prompt-for-user-input)
+   - 3.2 [Ask for Table Type (Full or Partial)](#ask-for-table-type-(full-or-partial))
+   - 3.3 [Full Multiplication Table](#full-multiplication-table)
+   - 3.4 [Partial Multiplication Table](#partial-multiplication-table)
+   - 3.5 [Validate Input Range for Partial Table](#validate-input-range-for-partial-table)
+   - 3.6 [Handle Invalid Options](#handle-invalid-options)
 4. Troubleshooting (Common Issues and Solutions)
-   * 4.1 [Script Permission Denied](#script-permission-denied)
-   * 4.2 [Invalid Input for Number](#invalid-input-for-number)
-   * 4.3 [Invalid Range in Partial Table](#invalid-range-in-partial-table)
-   * 4.4 [Git Remote Connection Issues](#git-remote-connection-issues)
+   - 4.1 [Script Permission Denied](#script-permission-denied)
+   - 4.2 [Invalid Input for Number](#invalid-input-for-number)
+   - 4.3 [Invalid Range in Partial Table](#invalid-range-in-partial-table)
+   - 4.4 [Git Remote Connection Issues](#git-remote-connection-issues)
 
 ### 1. Project Overview
 
