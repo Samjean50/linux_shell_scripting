@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-- 1. Project Overview
-- 2. Project Steps and Commands
+1. Project Overview
+2. Project Steps and Commands
    - 2.1 [Create Project Directory](#create-project-directory)
    - 2.2 [Initialize Git Repository](#initialize-git-repository)
    - 2.3 [Create a Bash Script File (.sh)](#create-a-bash-script-file-(.sh))
