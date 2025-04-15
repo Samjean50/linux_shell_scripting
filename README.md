@@ -6,12 +6,12 @@
 2. Project Steps and Commands
    - 2.1 [Create Project Directory](#21-create-project-directory)
    - 2.2 [Initialize Git Repository](#22-initialize-git-repository)
-   - 2.3 [Create a Bash Script File (.sh)](#23-create-a-bash-script-file-(.sh))
-   - 2.4 [Make the Script Executable](#make-the-script-executable)
-   - 2.5 [Set Up GitHub Repository and Link Remote](#set-up-github-repository-and-link-remote)
+   - 2.3 [Create a Bash Script File (.sh)](#23-create-a-bash-script-file-sh)
+   - 2.4 [Make the Script Executable](#24-make-the-script-executable)
+   - 2.5 [Set Up GitHub Repository and Link Remote](#25-set-up-github-repository-and-link-remote)
 3. Script Implementation
-   - 3.1 [Prompt for User Input](#prompt-for-user-input)
-   - 3.2 [Ask for Table Type (Full or Partial)](#ask-for-table-type-(full-or-partial))
+   - 3.1 [Prompt for User Input](#31-prompt-for-user-input)
+   - 3.2 [Ask for Table Type (Full or Partial)](#32-ask-for-table-type-(full-or-partial))
    - 3.3 [Full Multiplication Table](#full-multiplication-table)
    - 3.4 [Partial Multiplication Table](#partial-multiplication-table)
    - 3.5 [Validate Input Range for Partial Table](#validate-input-range-for-partial-table)
