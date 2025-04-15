@@ -4,7 +4,7 @@
 
 1. Project Overview
 2. Project Steps and Commands
-   - 2.1 [Create Project Directory](##create-project-directory)
+   - 2.1 [Create Project Directory](#create-project-directory)
    - 2.2 [Initialize Git Repository](#initialize-git-repository)
    - 2.3 [Create a Bash Script File (.sh)](#create-a-bash-script-file-(.sh))
    - 2.4 [Make the Script Executable](#make-the-script-executable)
@@ -50,7 +50,7 @@ A Git repository was initialized in the project directory to track changes and m
     git init
     ```
 
-#### 2.3. Create a Bash Script File (.sh)
+## 2.3. Create a Bash Script File (.sh)
 
 A shell script file named `multiplication_table.sh` was created to hold the Bash code.
 
