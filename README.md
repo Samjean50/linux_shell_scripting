@@ -5,8 +5,8 @@
 1. Project Overview
 2. Project Steps and Commands
    - 2.1 [Create Project Directory](#21-create-project-directory)
-   - 2.2 [Initialize Git Repository](#initialize-git-repository)
-   - 2.3 [Create a Bash Script File (.sh)](#create-a-bash-script-file-(.sh))
+   - 2.2 [Initialize Git Repository](#22-initialize-git-repository)
+   - 2.3 [Create a Bash Script File (.sh)](#23-create-a-bash-script-file-(.sh))
    - 2.4 [Make the Script Executable](#make-the-script-executable)
    - 2.5 [Set Up GitHub Repository and Link Remote](#set-up-github-repository-and-link-remote)
 3. Script Implementation
