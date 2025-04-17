@@ -12,15 +12,15 @@
 3. Script Implementation
    - 3.1 [Prompt for User Input](#31-prompt-for-user-input)
    - 3.2 [Ask for Table Type (Full or Partial)](#32-ask-for-table-type-(full-or-partial))
-   - 3.3 [Full Multiplication Table](#full-multiplication-table)
-   - 3.4 [Partial Multiplication Table](#partial-multiplication-table)
-   - 3.5 [Validate Input Range for Partial Table](#validate-input-range-for-partial-table)
-   - 3.6 [Handle Invalid Options](#handle-invalid-options)
+   - 3.3 [Full Multiplication Table](#33-full-multiplication-table)
+   - 3.4 [Partial Multiplication Table](#34-partial-multiplication-table)
+   - 3.5 [Validate Input Range for Partial Table](#35-validate-input-range-for-partial-table)
+   - 3.6 [Handle Invalid Options](#36-handle-invalid-options)
 4. Troubleshooting (Common Issues and Solutions)
-   - 4.1 [Script Permission Denied](#script-permission-denied)
-   - 4.2 [Invalid Input for Number](#invalid-input-for-number)
-   - 4.3 [Invalid Range in Partial Table](#invalid-range-in-partial-table)
-   - 4.4 [Git Remote Connection Issues](#git-remote-connection-issues)
+   - 4.1 [Script Permission Denied](#41-script-permission-denied)
+   - 4.2 [Invalid Input for Number](#42-invalid-input-for-number)
+   - 4.3 [Invalid Range in Partial Table](#43-invalid-range-in-partial-table)
+   - 4.4 [Git Remote Connection Issues](#44-git-remote-connection-issues)
 
 ### 1. Project Overview
 
